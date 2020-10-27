@@ -67,6 +67,14 @@ h1 {
     color: #0B132A;
 }
 
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
 p {
     color: #4F5665;
 }
@@ -75,6 +83,12 @@ p {
     border-radius: 10px;
     background: #30415D;
     width: 250px;
+}
+
+.center-vertical {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
 }
 
 .p-icon-custom {
