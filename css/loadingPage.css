@@ -1,0 +1,64 @@
+body {
+    font-family: Rubik;
+}
+
+.logo {
+    width: 300px;
+    height: 140px;
+    left: 54px;
+    top: 33px;
+}
+
+.navbar-brand-img {
+    max-height: 2.5rem;
+    width: auto
+}
+
+.btn-sm {
+    padding: .5625rem 1rem;
+    font-size: 16px;
+    line-height: 0.75;
+    border-radius: 50px
+}
+
+.nav-link {
+    margin: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665
+}
+
+h1 {
+    font-size: 36px;
+    color: #0B132A;
+}
+
+p {
+    color: #4F5665;
+}
+
+.btn-custom-start {
+    border-radius: 10px;
+    background: #30415D;
+    width: 250px;
+}
+
+.p-icon-custom {
+    font-size: 20px;
+    color: #4F5665;
+}
+
+#linha-vertical {
+    border: 2px solid #EEEFF2;
+}
+
+.card-comments {
+    background: #FFFFFF;
+    border: 2px solid #30415D;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+footer {
+    background: #F8F8F8;
+}
