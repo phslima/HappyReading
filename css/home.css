@@ -85,6 +85,22 @@ body {
     width: 60%;
 }
 
+.topico-desc h4 {
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    color: #333333;
+}
+
+.topico-desc p {
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.57px;
+    color: #77838F;
+}
+
 footer {
     background: #F8F8F8;
 }
