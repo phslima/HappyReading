@@ -1,0 +1,371 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c
+}
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #0000000;
+}
+.botao {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #031424;
+    font-size: 1em;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+/*Navegção*/
+
+
+#divBusca{
+    background-color:#f7ffff;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:170px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:40px;
+    font-weight:bold;
+    background: #f7ffff;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+
+nav {
+    position: -ms-page;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8EAEBD;
+    
+}
+nav > a{
+    text-emphasis: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 2em;
+    font-family: Yellowtail, serif;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav button{
+    color:#031424;
+    text-decoration: none;
+    padding: 3px 12px;
+    background-color: #ffffff;
+    font-size: 1em;
+    border-radius: 15px;
+
+
+}
+.botao1 {
+    color:#031424;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    font-size: 1em;
+    border-radius: 15px;
+
+}
+#topo{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/illustration-1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #031424;
+    text-align: center;
+    padding: 20px;
+}
+#topo_encontro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfafa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #031424;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: 32px;
+}
+#pesquisa{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfafa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #031424;
+    text-align: center;
+    padding: 20px;
+    width: auto;
+    height: 32px
+}
+#procurados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#destaque h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#destaque .livros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 13px;
+    color: #CF6766;
+    
+
+}
+
+header h1{
+    display: inline-flex;
+    color:#031424;
+    background-color:transparent;
+    border-radius: 10px;
+}
+header p{
+    color:#031424;
+    background-color: #f1f1f1;
+    font-size: 2em;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-bottom: 2em;
+    
+}
+#encontro1 {
+    display: -moz-grid-group;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color:#CF6766;
+    color: #ffffff;
+    border-radius: 15px;
+    border: solid 2px;
+
+}
+#encontro2 {
+    display: -moz-grid-group;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #CF6766;
+    color:#ffffff;
+    border-radius: 15px;
+    border: solid 2px;
+}
+#encontro h2{
+    color: #FFFFFF;
+}
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #031424;
+    color:#ffffff
+}
+#sobre h2 {
+    color: #FFFFFF;
+
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+#serviços{
+    display: -moz-grid-group;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+#opcoes div ul li{
+    list-style: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8EAEBD;
+    background-color: ;
+    color: #FFFFFF;
+}
+footer a { 
+
+    text-decoration: none;
+    color: #000fff;
+}
+/*formulario livro*/
+#form fieldset{
+    padding: 18px;
+    border: 1px solid #ccc;
+}
+#form fieldset legend{
+    font: 18px;
+    color: #999;
+    font-weight: bolder;
+}
+#form input{
+    width: 300px;
+    padding: 13px;
+    font: 16px;
+    color: #333;
+    border-radius: 15px;
+}
+#form .btn{
+    width: 120px;
+    padding: 12px;
+    background: #031424;
+    font: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+#form.btn:hover{
+    background: #CF6766;
+
+}
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    /*Cabeçalho*/
+    header {
+        
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    /*sobre*/
+    #topo{
+        
+
+    }
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-width: 250px;
+    }
+    /*serviços*/
+    #serviços {
+       
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #serviços h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #serviços div {
+     
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    #fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #fotos h2{
+        width: 100%;
+        text-align: center;
+    }
+    #fotos img {
+        width: 33.3333333%;
+    }
+    #opcoes{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+}
+
